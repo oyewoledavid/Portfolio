@@ -23,7 +23,7 @@
   font-size: 1.5em;
   font-weight: 500;
   margin-left: 1.5rem;
-  color: #02B6AD;
+  color: #02b6ad;
   text-decoration: none;
 }
 .nav_logo img {
@@ -35,7 +35,7 @@
   transform: scale(1.3);
 }
 .nav_logo a:hover {
-  color: #0DFDF1;
+  color: #0dfdf1;
   text-decoration: underline;
 }
 
@@ -49,11 +49,11 @@
   font-size: 1.5em;
   font-weight: 500;
   text-decoration: none;
-  color: #02B6AD;
+  color: #02b6ad;
 }
 
 .nav_link a:hover {
-  color: #0DFDF1;
+  color: #0dfdf1;
   text-decoration: underline;
 }
 
@@ -278,7 +278,7 @@ main {
   border-radius: 20px;
   border: none;
   margin-top: 1em;
-  background-color: #02B6AD;
+  background-color: #02b6ad;
   width: 100%;
 }
 .iota button:hover,
@@ -288,7 +288,7 @@ main {
   background-color: transparent;
   border: 2px solid blanchedalmond;
   transform: scale(1.2);
-  transition: 1.0s;
+  transition: 1s;
   color: blanchedalmond;
 }
 .contact h1 {
@@ -310,33 +310,33 @@ main {
 .fa-brands,
 .fa-solid {
   font-size: 25px;
-  color: #0DFDF1;
+  color: #0dfdf1;
 }
 .fa-brands:hover,
 .fa-solid:hover {
   transform: scale(1.5);
   transition: 0.3s;
 }
-.my-cv{
+.my-cv {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px;
   font-size: 20px;
 }
-.my-cv a{
+.my-cv a {
   text-decoration: none;
-  color:#0DFDF1 ;
+  color: #0dfdf1;
   font-weight: bolder;
 }
-.my-cv a:hover{
+.my-cv a:hover {
   text-decoration: underline;
 }
 
 .femi {
   animation-duration: 2s;
   animation-name: slidein;
-  color: #0DFDF1;
+  color: #0dfdf1;
 }
 @keyframes slidein {
   from {
@@ -437,11 +437,11 @@ footer {
   .qualities {
     border: 2px solid gray;
     width: 33.3%;
-    height: 18em;
+    /* height: 18em; */
     line-height: 1.5em;
     margin-left: 1em;
     font-size: 18px;
-     padding: 40px;
+    padding: 40px;
   }
   .top-row {
     display: flex;
@@ -468,6 +468,12 @@ footer {
   .age-calculator img,
   .chess-board img {
     width: 90%;
+  }
+  .iota button,
+  .landing-page button,
+  .age-calculator button,
+  .chess-board button {
+    margin-top: 2em;
   }
   .projects h1 {
     font-size: 2em;
